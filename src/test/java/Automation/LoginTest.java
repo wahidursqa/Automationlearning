@@ -1,18 +1,46 @@
 package Automation;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class LoginTest {
-	@Test(priority=1)
-	public void loginTest()
+	@BeforeTest
+	public void LoginToApplication()
 	{
-		System.out.println("Login is sucessfull");
+		System.out.println("Login to application");
 	}
-	@Test(priority=2)
 	
-	public void logoutTest()
+	@BeforeMethod
+	public void connectToDB()
 	{
-		System.out.println("Logout is sucessfull");
+		System.out.println("Connect to DB");
+	}
+	
+	@AfterMethod
+	public void DisconnectFromDB()
+	{
+		System.out.println("Disconnect from DB");
+	}
+	
+	@Test(priority=1)
+	public void aTest()
+	{
+		System.out.println("Test1");
+	}
+	
+	@Test(priority=2)
+	public void bTest()
+	{
+		System.out.println("Test2");
 	}
 
+	@AfterTest
+	public void LogoutFromApplication()
+	{
+		System.out.println("Logout from application");
+		
+	}
 }
