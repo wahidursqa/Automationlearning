@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-17T19:46:47 BDT" name="Default suite" finished-at="2023-06-17T19:46:47 BDT" duration-ms="44">
+    <groups>
+    </groups>
+    <test started-at="2023-06-17T19:46:47 BDT" name="Default test" finished-at="2023-06-17T19:46:47 BDT" duration-ms="44">
+      <class name="Automation.LoginTest">
+        <test-method signature="loginTest()[pri:1, instance:Automation.LoginTest@5505ae1a]" started-at="2023-06-17T19:46:47 BDT" name="loginTest" finished-at="2023-06-17T19:46:47 BDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="logoutTest()[pri:2, instance:Automation.LoginTest@5505ae1a]" started-at="2023-06-17T19:46:47 BDT" name="logoutTest" finished-at="2023-06-17T19:46:47 BDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- Automation.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
