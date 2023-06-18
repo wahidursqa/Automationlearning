@@ -1,25 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-18T17:54:20 BDT" name="Default suite" finished-at="2023-06-18T17:54:33 BDT" duration-ms="12614">
+  <suite started-at="2023-06-18T23:00:08 BDT" name="Suite" finished-at="2023-06-18T23:00:08 BDT" duration-ms="52">
     <groups>
+      <group name="functional">
+        <method signature="GroupTC.test1()[pri:0, instance:Automation.GroupTC@557caf28]" name="test1" class="Automation.GroupTC"/>
+        <method signature="GroupTC.test2()[pri:0, instance:Automation.GroupTC@557caf28]" name="test2" class="Automation.GroupTC"/>
+        <method signature="GroupTC.test3()[pri:0, instance:Automation.GroupTC@557caf28]" name="test3" class="Automation.GroupTC"/>
+        <method signature="GroupTC.test4()[pri:0, instance:Automation.GroupTC@557caf28]" name="test4" class="Automation.GroupTC"/>
+        <method signature="GroupTC2.test10()[pri:0, instance:Automation.GroupTC2@3c41ed1d]" name="test10" class="Automation.GroupTC2"/>
+        <method signature="GroupTC2.test7()[pri:0, instance:Automation.GroupTC2@3c41ed1d]" name="test7" class="Automation.GroupTC2"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="GroupTC.test1()[pri:0, instance:Automation.GroupTC@557caf28]" name="test1" class="Automation.GroupTC"/>
+        <method signature="GroupTC.test2()[pri:0, instance:Automation.GroupTC@557caf28]" name="test2" class="Automation.GroupTC"/>
+        <method signature="GroupTC.test3()[pri:0, instance:Automation.GroupTC@557caf28]" name="test3" class="Automation.GroupTC"/>
+        <method signature="GroupTC.test4()[pri:0, instance:Automation.GroupTC@557caf28]" name="test4" class="Automation.GroupTC"/>
+        <method signature="GroupTC2.test10()[pri:0, instance:Automation.GroupTC2@3c41ed1d]" name="test10" class="Automation.GroupTC2"/>
+        <method signature="GroupTC2.test7()[pri:0, instance:Automation.GroupTC2@3c41ed1d]" name="test7" class="Automation.GroupTC2"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="GroupTC.test1()[pri:0, instance:Automation.GroupTC@557caf28]" name="test1" class="Automation.GroupTC"/>
+        <method signature="GroupTC.test2()[pri:0, instance:Automation.GroupTC@557caf28]" name="test2" class="Automation.GroupTC"/>
+        <method signature="GroupTC.test3()[pri:0, instance:Automation.GroupTC@557caf28]" name="test3" class="Automation.GroupTC"/>
+        <method signature="GroupTC.test4()[pri:0, instance:Automation.GroupTC@557caf28]" name="test4" class="Automation.GroupTC"/>
+        <method signature="GroupTC2.test10()[pri:0, instance:Automation.GroupTC2@3c41ed1d]" name="test10" class="Automation.GroupTC2"/>
+        <method signature="GroupTC2.test7()[pri:0, instance:Automation.GroupTC2@3c41ed1d]" name="test7" class="Automation.GroupTC2"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-06-18T17:54:20 BDT" name="Default test" finished-at="2023-06-18T17:54:33 BDT" duration-ms="12614">
-      <class name="Automation.VerifyText">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Automation.VerifyText@206a70ef]" started-at="2023-06-18T17:54:20 BDT" name="setUp" finished-at="2023-06-18T17:54:22 BDT" duration-ms="1798" status="PASS">
+    <test started-at="2023-06-18T23:00:08 BDT" name="Test" finished-at="2023-06-18T23:00:08 BDT" duration-ms="52">
+      <class name="Automation.GroupTC">
+        <test-method signature="test1()[pri:0, instance:Automation.GroupTC@557caf28]" started-at="2023-06-18T23:00:08 BDT" name="test1" finished-at="2023-06-18T23:00:08 BDT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTitle()[pri:0, instance:Automation.VerifyText@206a70ef]" started-at="2023-06-18T17:54:22 BDT" name="verifyTitle" finished-at="2023-06-18T17:54:33 BDT" duration-ms="10654" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:Automation.GroupTC@557caf28]" started-at="2023-06-18T23:00:08 BDT" name="test2" finished-at="2023-06-18T23:00:08 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Automation.VerifyText@206a70ef]" started-at="2023-06-18T17:54:33 BDT" name="tearDown" finished-at="2023-06-18T17:54:33 BDT" duration-ms="125" status="PASS">
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:Automation.GroupTC@557caf28]" started-at="2023-06-18T23:00:08 BDT" name="test3" finished-at="2023-06-18T23:00:08 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Automation.VerifyText -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:Automation.GroupTC@557caf28]" started-at="2023-06-18T23:00:08 BDT" name="test4" finished-at="2023-06-18T23:00:08 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- Automation.GroupTC -->
+      <class name="Automation.GroupTC2">
+        <test-method signature="test10()[pri:0, instance:Automation.GroupTC2@3c41ed1d]" started-at="2023-06-18T23:00:08 BDT" name="test10" finished-at="2023-06-18T23:00:08 BDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+        <test-method signature="test7()[pri:0, instance:Automation.GroupTC2@3c41ed1d]" started-at="2023-06-18T23:00:08 BDT" name="test7" finished-at="2023-06-18T23:00:08 BDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+      </class> <!-- Automation.GroupTC2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
