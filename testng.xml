@@ -3,10 +3,22 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
 	  <groups>
-		  <run>
-			  <include name="sanity" />
+		  
+			<define name ="dailybuild">
+			  	<include name="sanity" />
+			  	<include name="functional" />
+			</define>
 			  
-		  </run>
+			  <define name ="weeklybuild">
+			  	<include name="sanity" />
+			  	<include name="functional" />
+			  	<include name="smoke" />
+			</define>
+			<run>
+				<include name="sanity" />
+			</run>
+		 
+		 
 	  </groups>
     <classes>
       <class name="Automation.GroupTC"/>
