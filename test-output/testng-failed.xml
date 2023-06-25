@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Automation.VerifyTitleTest">
+      <class name="Automation.TestDependency2">
         <methods>
-          <include name="tearDown"/>
-          <include name="verifyTitle"/>
-          <include name="setUp"/>
+          <include name="Cancelshipment"/>
+          <include name="Createshipment"/>
+          <include name="Trackshipment"/>
         </methods>
-      </class> <!-- Automation.VerifyTitleTest -->
+      </class> <!-- Automation.TestDependency2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

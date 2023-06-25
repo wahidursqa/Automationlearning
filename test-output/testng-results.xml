@@ -1,63 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="1" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-24T21:14:08 BDT" name="Suite" finished-at="2023-06-24T21:14:08 BDT" duration-ms="58">
+  <suite started-at="2023-06-25T22:59:19 BDT" name="Default suite" finished-at="2023-06-25T22:59:19 BDT" duration-ms="55">
     <groups>
-      <group name="functional">
-        <method signature="GroupTC.test1()[pri:0, instance:Automation.GroupTC@3c46e67a]" name="test1" class="Automation.GroupTC"/>
-        <method signature="GroupTC.test2()[pri:0, instance:Automation.GroupTC@3c46e67a]" name="test2" class="Automation.GroupTC"/>
-        <method signature="GroupTC.test3()[pri:0, instance:Automation.GroupTC@3c46e67a]" name="test3" class="Automation.GroupTC"/>
-        <method signature="GroupTC.test4()[pri:0, instance:Automation.GroupTC@3c46e67a]" name="test4" class="Automation.GroupTC"/>
-        <method signature="GroupTC2.test10()[pri:0, instance:Automation.GroupTC2@43bc63a3]" name="test10" class="Automation.GroupTC2"/>
-        <method signature="GroupTC2.test7()[pri:0, instance:Automation.GroupTC2@43bc63a3]" name="test7" class="Automation.GroupTC2"/>
-      </group> <!-- functional -->
-      <group name="smoke">
-        <method signature="GroupTC.test1()[pri:0, instance:Automation.GroupTC@3c46e67a]" name="test1" class="Automation.GroupTC"/>
-        <method signature="GroupTC.test2()[pri:0, instance:Automation.GroupTC@3c46e67a]" name="test2" class="Automation.GroupTC"/>
-        <method signature="GroupTC.test3()[pri:0, instance:Automation.GroupTC@3c46e67a]" name="test3" class="Automation.GroupTC"/>
-        <method signature="GroupTC.test4()[pri:0, instance:Automation.GroupTC@3c46e67a]" name="test4" class="Automation.GroupTC"/>
-        <method signature="GroupTC2.test10()[pri:0, instance:Automation.GroupTC2@43bc63a3]" name="test10" class="Automation.GroupTC2"/>
-        <method signature="GroupTC2.test7()[pri:0, instance:Automation.GroupTC2@43bc63a3]" name="test7" class="Automation.GroupTC2"/>
-      </group> <!-- smoke -->
-      <group name="sanity">
-        <method signature="GroupTC.test1()[pri:0, instance:Automation.GroupTC@3c46e67a]" name="test1" class="Automation.GroupTC"/>
-        <method signature="GroupTC.test2()[pri:0, instance:Automation.GroupTC@3c46e67a]" name="test2" class="Automation.GroupTC"/>
-        <method signature="GroupTC.test3()[pri:0, instance:Automation.GroupTC@3c46e67a]" name="test3" class="Automation.GroupTC"/>
-        <method signature="GroupTC.test4()[pri:0, instance:Automation.GroupTC@3c46e67a]" name="test4" class="Automation.GroupTC"/>
-        <method signature="GroupTC2.test10()[pri:0, instance:Automation.GroupTC2@43bc63a3]" name="test10" class="Automation.GroupTC2"/>
-        <method signature="GroupTC2.test7()[pri:0, instance:Automation.GroupTC2@43bc63a3]" name="test7" class="Automation.GroupTC2"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-06-24T21:14:08 BDT" name="Test" finished-at="2023-06-24T21:14:08 BDT" duration-ms="58">
-      <class name="Automation.GroupTC">
-        <test-method signature="test1()[pri:0, instance:Automation.GroupTC@3c46e67a]" started-at="2023-06-24T21:14:08 BDT" name="test1" finished-at="2023-06-24T21:14:08 BDT" duration-ms="7" status="PASS">
+    <test started-at="2023-06-25T22:59:19 BDT" name="Default test" finished-at="2023-06-25T22:59:19 BDT" duration-ms="55">
+      <class name="Automation.TestDependency2">
+        <test-method signature="Createshipment()[pri:0, instance:Automation.TestDependency2@6b2ea799]" started-at="2023-06-25T22:59:19 BDT" name="Createshipment" finished-at="2023-06-25T22:59:19 BDT" duration-ms="7" status="FAIL">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at Automation.TestDependency2.Createshipment(TestDependency2.java:10)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:Automation.GroupTC@3c46e67a]" started-at="2023-06-24T21:14:08 BDT" name="test2" finished-at="2023-06-24T21:14:08 BDT" duration-ms="1" status="PASS">
+        </test-method> <!-- Createshipment -->
+        <test-method signature="Trackshipment()[pri:0, instance:Automation.TestDependency2@6b2ea799]" started-at="2023-06-25T22:59:19 BDT" name="Trackshipment" finished-at="2023-06-25T22:59:19 BDT" depends-on-methods="Automation.TestDependency2.Createshipment" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Automation.TestDependency2.Trackshipment() on instance Automation.TestDependency2@6b2ea799 depends on not successfully finished methods 
+[Automation.TestDependency2.Createshipment() on instance Automation.TestDependency2@6b2ea799]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Automation.TestDependency2.Trackshipment() on instance Automation.TestDependency2@6b2ea799 depends on not successfully finished methods 
+[Automation.TestDependency2.Createshipment() on instance Automation.TestDependency2@6b2ea799]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:0, instance:Automation.GroupTC@3c46e67a]" started-at="2023-06-24T21:14:08 BDT" name="test3" finished-at="2023-06-24T21:14:08 BDT" duration-ms="1" status="PASS">
+        </test-method> <!-- Trackshipment -->
+        <test-method signature="Cancelshipment()[pri:0, instance:Automation.TestDependency2@6b2ea799]" started-at="2023-06-25T22:59:19 BDT" name="Cancelshipment" finished-at="2023-06-25T22:59:19 BDT" depends-on-methods="Automation.TestDependency2.Createshipment, Automation.TestDependency2.Trackshipment" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Automation.TestDependency2.Cancelshipment() on instance Automation.TestDependency2@6b2ea799 depends on not successfully finished methods 
+[Automation.TestDependency2.Createshipment() on instance Automation.TestDependency2@6b2ea799
+Automation.TestDependency2.Trackshipment() on instance Automation.TestDependency2@6b2ea799]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Automation.TestDependency2.Cancelshipment() on instance Automation.TestDependency2@6b2ea799 depends on not successfully finished methods 
+[Automation.TestDependency2.Createshipment() on instance Automation.TestDependency2@6b2ea799
+Automation.TestDependency2.Trackshipment() on instance Automation.TestDependency2@6b2ea799]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method signature="test4()[pri:0, instance:Automation.GroupTC@3c46e67a]" started-at="2023-06-24T21:14:08 BDT" name="test4" finished-at="2023-06-24T21:14:08 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-      </class> <!-- Automation.GroupTC -->
-      <class name="Automation.GroupTC2">
-        <test-method signature="test10()[pri:0, instance:Automation.GroupTC2@43bc63a3]" started-at="2023-06-24T21:14:08 BDT" name="test10" finished-at="2023-06-24T21:14:08 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test10 -->
-        <test-method signature="test7()[pri:0, instance:Automation.GroupTC2@43bc63a3]" started-at="2023-06-24T21:14:08 BDT" name="test7" finished-at="2023-06-24T21:14:08 BDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test7 -->
-      </class> <!-- Automation.GroupTC2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Cancelshipment -->
+      </class> <!-- Automation.TestDependency2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
