@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-05T21:52:23 BDT" name="Default suite" finished-at="2023-07-05T21:52:23 BDT" duration-ms="50">
+  <suite started-at="2023-07-05T22:50:48 BDT" name="Default suite" finished-at="2023-07-05T22:50:48 BDT" duration-ms="51">
     <groups>
     </groups>
-    <test started-at="2023-07-05T21:52:23 BDT" name="Default test" finished-at="2023-07-05T21:52:23 BDT" duration-ms="50">
-      <class name="Automation.DataProviderTest5">
-        <test-method signature="Login([Ljava.lang.Object;)[pri:0, instance:Automation.DataProviderTest5@3c46e67a]" started-at="2023-07-05T21:52:23 BDT" name="Login" data-provider="dp1" finished-at="2023-07-05T21:52:23 BDT" duration-ms="6" status="PASS">
+    <test started-at="2023-07-05T22:50:48 BDT" name="Default test" finished-at="2023-07-05T22:50:48 BDT" duration-ms="51">
+      <class name="Automation.DataProviderTest6">
+        <test-method signature="Login([Ljava.lang.String;)[pri:0, instance:Automation.DataProviderTest6@3c46e67a]" started-at="2023-07-05T22:50:48 BDT" name="Login" data-provider="dp1" finished-at="2023-07-05T22:50:48 BDT" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@be35cd9]]>
+                <![CDATA[[Ljava.lang.String;@346d61be]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Login([Ljava.lang.Object;)[pri:0, instance:Automation.DataProviderTest5@3c46e67a]" started-at="2023-07-05T21:52:23 BDT" name="Login" data-provider="dp1" finished-at="2023-07-05T21:52:23 BDT" duration-ms="1" status="PASS">
+        <test-method signature="Login([Ljava.lang.String;)[pri:0, instance:Automation.DataProviderTest6@3c46e67a]" started-at="2023-07-05T22:50:48 BDT" name="Login" data-provider="dp1" finished-at="2023-07-05T22:50:48 BDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@41e1e210]]>
+                <![CDATA[[Ljava.lang.String;@11bd0f3b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-      </class> <!-- Automation.DataProviderTest5 -->
+      </class> <!-- Automation.DataProviderTest6 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
