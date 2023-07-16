@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Automation.DataProviderTest8">
+      <class name="ExtentReport.ExtentReportPractice">
         <methods>
-          <include name="Login"/>
+          <include name="tearDown"/>
+          <include name="testLogin"/>
+          <include name="setup"/>
+          <include name="testLogout"/>
         </methods>
-      </class> <!-- Automation.DataProviderTest8 -->
+      </class> <!-- ExtentReport.ExtentReportPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
