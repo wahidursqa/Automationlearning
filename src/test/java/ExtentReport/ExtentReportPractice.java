@@ -9,12 +9,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
+//import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-@Listeners(ExtentReport.ExtentReportManager.class)
+//@Listeners(ExtentReport.ExtentReportManager.class)
 public class ExtentReportPractice {
 	
 WebDriver driver;

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-16T11:21:19 BDT" name="Default suite" finished-at="2023-07-16T11:21:40 BDT" duration-ms="21791">
+  <suite started-at="2023-07-16T12:16:52 BDT" name="Suite" finished-at="2023-07-16T12:17:16 BDT" duration-ms="23743">
     <groups>
     </groups>
-    <test started-at="2023-07-16T11:21:19 BDT" name="Default test" finished-at="2023-07-16T11:21:40 BDT" duration-ms="21791">
+    <test started-at="2023-07-16T12:16:52 BDT" name="Test" finished-at="2023-07-16T12:17:16 BDT" duration-ms="23743">
       <class name="ExtentReport.ExtentReportPractice">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ExtentReport.ExtentReportPractice@3cd3e762]" started-at="2023-07-16T11:21:19 BDT" name="setup" finished-at="2023-07-16T11:21:22 BDT" duration-ms="3292" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ExtentReport.ExtentReportPractice@179ece50]" started-at="2023-07-16T12:16:53 BDT" name="setup" finished-at="2023-07-16T12:16:59 BDT" duration-ms="6005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogo()[pri:1, instance:ExtentReport.ExtentReportPractice@3cd3e762]" started-at="2023-07-16T11:21:22 BDT" name="testLogo" finished-at="2023-07-16T11:21:22 BDT" duration-ms="56" status="PASS">
+        <test-method signature="testLogo()[pri:1, instance:ExtentReport.ExtentReportPractice@179ece50]" started-at="2023-07-16T12:16:59 BDT" name="testLogo" finished-at="2023-07-16T12:16:59 BDT" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogo -->
-        <test-method signature="testLogin()[pri:2, instance:ExtentReport.ExtentReportPractice@3cd3e762]" started-at="2023-07-16T11:21:22 BDT" name="testLogin" finished-at="2023-07-16T11:21:30 BDT" duration-ms="7930" status="PASS">
+        <test-method signature="testLogin()[pri:2, instance:ExtentReport.ExtentReportPractice@179ece50]" started-at="2023-07-16T12:16:59 BDT" name="testLogin" finished-at="2023-07-16T12:17:06 BDT" duration-ms="7145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLogout()[pri:3, instance:ExtentReport.ExtentReportPractice@3cd3e762]" started-at="2023-07-16T11:21:30 BDT" name="testLogout" finished-at="2023-07-16T11:21:40 BDT" depends-on-methods="ExtentReport.ExtentReportPractice.testLogin" duration-ms="10033" status="FAIL">
+        <test-method signature="testLogout()[pri:3, instance:ExtentReport.ExtentReportPractice@179ece50]" started-at="2023-07-16T12:17:06 BDT" name="testLogout" finished-at="2023-07-16T12:17:16 BDT" depends-on-methods="ExtentReport.ExtentReportPractice.testLogin" duration-ms="10081" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Log out"}
@@ -28,9 +28,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7730562b97d1bc32c658fcedf6cdc07e, findElement {using=link text, value=Log out}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:60302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60302/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7730562b97d1bc32c658fcedf6cdc07e]]>
+Command: [fb553ebcd596b7ff113d0529a233df0a, findElement {using=link text, value=Log out}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62881}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62881/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb553ebcd596b7ff113d0529a233df0a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Log out"}
@@ -39,9 +39,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7730562b97d1bc32c658fcedf6cdc07e, findElement {using=link text, value=Log out}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:60302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60302/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7730562b97d1bc32c658fcedf6cdc07e
+Command: [fb553ebcd596b7ff113d0529a233df0a, findElement {using=link text, value=Log out}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62881}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62881/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb553ebcd596b7ff113d0529a233df0a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -93,11 +93,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ExtentReport.ExtentReportPractice@3cd3e762]" started-at="2023-07-16T11:21:40 BDT" name="tearDown" finished-at="2023-07-16T11:21:40 BDT" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ExtentReport.ExtentReportPractice@179ece50]" started-at="2023-07-16T12:17:16 BDT" name="tearDown" finished-at="2023-07-16T12:17:16 BDT" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- ExtentReport.ExtentReportPractice -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
